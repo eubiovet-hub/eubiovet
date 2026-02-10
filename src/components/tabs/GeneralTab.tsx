@@ -31,7 +31,7 @@ export default function GeneralTab() {
         <div className="border-l-4 border-accent pl-4 py-2 transition-all duration-300 hover:translate-x-1">
           <h3 className="text-base font-bold text-gray-900 mb-1">Contact Details</h3>
           <p className="text-xs text-gray-700 mb-2">
-            Have questions or need more information? We're here to help.
+            Have questions or need more information? We&apos;re here to help.
           </p>
           <a
             href="mailto:info@oryxlifesciences.com"
