@@ -12,7 +12,7 @@ export default function HeroSection() {
           alt="Oryx Life Sciences Logo"
           width={600}
           height={600}
-          className="rounded-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl h-auto"
+          className="rounded-lg w-full max-w-xs sm:max-w-sm md:max-w-sm lg:max-w-md xl:max-w-lg h-auto"
           priority
         />
       </div>

@@ -139,12 +139,12 @@ export default function ProductLabelTab() {
       </div>
 
       {/* Language Toggle */}
-      <div className="flex gap-3 mb-8">
+      <div className="flex gap-3 mb-8 flex-wrap">
         {['en', 'af'].map((lang) => (
           <button
             key={lang}
             onClick={() => setLanguage(lang as 'en' | 'af')}
-            className={`px-6 py-3 rounded-lg font-medium transition-all hover:scale-105 active:scale-95 ${
+            className={`px-6 py-3 rounded-lg font-medium transition-all active:scale-95 ${
               language === lang
                 ? 'bg-primary text-white shadow-lg'
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
@@ -156,7 +156,7 @@ export default function ProductLabelTab() {
       </div>
 
       {/* Product Label Content */}
-      <div key={language} className="bg-white rounded-lg border border-gray-200 p-6 max-h-64 sm:max-h-80 md:max-h-96 lg:max-h-[450px] overflow-y-auto transition-all duration-300" data-scrollable>
+      <div key={language} className="bg-white rounded-lg border border-gray-200 p-6 overflow-y-auto transition-all duration-300" data-scrollable>
         <LabelContent />
       </div>
 

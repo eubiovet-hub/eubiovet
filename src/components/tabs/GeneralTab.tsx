@@ -12,7 +12,7 @@ export default function GeneralTab() {
 
       <div className="space-y-2 md:space-y-4 overflow-y-auto flex-1" data-scrollable>
         {/* About Section */}
-        <div className="border-l-4 border-primary pl-4 md:pl-6 py-2 md:py-3 transition-all duration-300 hover:translate-x-1">
+        <div className="border-l-4 border-primary pl-4 md:pl-6 py-2 md:py-3 transition-all duration-300">
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-1 md:mb-2">About Oryx Life Sciences</h3>
           <p className="text-xs md:text-sm text-gray-700 mb-2 md:mb-3">
             Oryx Life Sciences is dedicated to providing innovative, high-quality solutions in the veterinary and life sciences industry. We are committed to excellence, regulatory compliance, and customer satisfaction.
@@ -21,21 +21,21 @@ export default function GeneralTab() {
             href="https://oryxlifesciences.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-2 md:px-3 py-1 md:py-2 text-xs md:text-sm bg-primary text-white rounded-lg hover:opacity-90 hover:scale-105 active:scale-95 transition-all font-medium"
+            className="inline-block px-2 md:px-3 py-1 md:py-2 text-xs md:text-sm bg-primary text-white rounded-lg hover:opacity-90 active:scale-95 transition-all font-medium"
           >
             Visit Oryx Life Sciences →
           </a>
         </div>
 
         {/* Contact Section */}
-        <div className="border-l-4 border-accent pl-4 md:pl-6 py-2 md:py-3 transition-all duration-300 hover:translate-x-1">
+        <div className="border-l-4 border-accent pl-4 md:pl-6 py-2 md:py-3 transition-all duration-300">
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-1 md:mb-2">Contact Details</h3>
           <p className="text-xs md:text-sm text-gray-700 mb-2 md:mb-3">
             Have questions or need more information? We&apos;re here to help.
           </p>
           <a
             href="mailto:info@oryxlifesciences.com"
-            className="inline-block px-2 md:px-3 py-1 md:py-2 text-xs md:text-sm bg-accent text-white rounded-lg hover:opacity-90 hover:scale-105 active:scale-95 transition-all font-medium"
+            className="inline-block px-2 md:px-3 py-1 md:py-2 text-xs md:text-sm bg-accent text-white rounded-lg hover:opacity-90 active:scale-95 transition-all font-medium"
           >
             Send us an Email →
           </a>

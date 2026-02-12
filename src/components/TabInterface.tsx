@@ -38,7 +38,7 @@ export default function TabInterface() {
       </div>
 
       {/* Tab Content */}
-      <div className="p-2 sm:p-3 md:p-4 lg:p-6 overflow-y-auto flex-1 transition-all duration-300" data-scrollable>
+      <div className="p-2 sm:p-3 md:p-4 lg:p-6 overflow-y-auto flex-1 transition-all duration-300 overflow-x-hidden max-h-[420px] sm:max-h-[550px] md:max-h-[500px] lg:max-h-[600px]" data-scrollable>
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}
